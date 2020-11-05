@@ -24,7 +24,7 @@ Resources:
             Resource: "*"
 
 Outputs:
-  # You also need to output the IAM ManagedPolicy so that Copilot can inject it to your ECS task role.
+  # You also need to output the IAM ManagedPolicy so that Copilot can inject it to your ECS task role. Test
   SubnetsAccessPolicyArn:
     Description: "The ARN of the Policy to attach to the task role."
     Value: !Ref SubnetsAccessPolicy
